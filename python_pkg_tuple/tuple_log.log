@@ -1,0 +1,32 @@
+2022-01-28 15:25:35,656 DEBUG diff parser start
+2022-01-28 15:25:35,657 DEBUG line_lengths old: 1; new: 1
+2022-01-28 15:25:35,657 DEBUG -> code[replace] old[1:1] new[1:1]
+2022-01-28 15:25:35,659 DEBUG parse_part from 1 to 1 (to 0 in part parser)
+2022-01-28 15:25:35,659 DEBUG diff parser end
+2022-01-28 15:25:38,307 DEBUG pickle loaded: C:\Users\amit.singh\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2022-01-28 15:25:42,909 DEBUG diff parser start
+2022-01-28 15:25:42,910 DEBUG line_lengths old: 1; new: 1
+2022-01-28 15:25:42,910 DEBUG -> code[replace] old[1:1] new[1:1]
+2022-01-28 15:25:43,250 DEBUG parse_part from 1 to 1 (to 0 in part parser)
+2022-01-28 15:25:43,250 DEBUG diff parser end
+2022-01-28 15:25:53,681 DEBUG diff parser start
+2022-01-28 15:25:53,682 DEBUG line_lengths old: 1; new: 1
+2022-01-28 15:25:53,682 DEBUG -> code[replace] old[1:1] new[1:1]
+2022-01-28 15:25:53,684 DEBUG parse_part from 1 to 1 (to 0 in part parser)
+2022-01-28 15:25:53,684 DEBUG diff parser end
+2022-01-28 15:26:11,732 INFO Executed Successfully
+2022-01-28 15:26:25,640 INFO Executed Successfully
+2022-01-28 15:27:35,204 DEBUG diff parser start
+2022-01-28 15:27:35,205 DEBUG line_lengths old: 1; new: 1
+2022-01-28 15:27:35,206 DEBUG -> code[replace] old[1:1] new[1:1]
+2022-01-28 15:27:35,207 DEBUG parse_part from 1 to 1 (to 0 in part parser)
+2022-01-28 15:27:35,208 DEBUG diff parser end
+2022-01-28 15:32:36,897 INFO Executed Successfully
+2022-01-28 15:32:51,372 DEBUG pickle loaded: C:\Users\amit.singh\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2022-01-28 15:32:59,913 ERROR Exception Occurred tuple.index(x): x not in tuple
+Traceback (most recent call last):
+  File "C:\Users\amit.singh\MyFirstProject\pkg_tuple\tuple_function.py", line 24, in tuple_index
+    self.t.index(a)
+ValueError: tuple.index(x): x not in tuple
+2022-01-28 15:36:08,043 INFO Executed Successfully
+2022-01-28 15:36:21,982 INFO Executed Successfully
