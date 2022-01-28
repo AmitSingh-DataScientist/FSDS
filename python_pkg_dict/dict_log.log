@@ -1,0 +1,61 @@
+2022-01-28 16:36:08,952 DEBUG diff parser start
+2022-01-28 16:36:08,952 DEBUG line_lengths old: 1; new: 1
+2022-01-28 16:36:08,952 DEBUG -> code[replace] old[1:1] new[1:1]
+2022-01-28 16:36:08,953 DEBUG parse_part from 1 to 1 (to 0 in part parser)
+2022-01-28 16:36:08,953 DEBUG diff parser end
+2022-01-28 16:36:09,130 DEBUG pickle loaded: C:\Users\amit.singh\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2022-01-28 16:37:08,681 ERROR Exception Occurred : 'dict' object has no attribute 'key'
+Traceback (most recent call last):
+  File "C:\Users\amit.singh\MyFirstProject\pkg_dict\dict_function.py", line 13, in dict_key
+    self.d.key()
+AttributeError: 'dict' object has no attribute 'key'
+2022-01-28 16:37:30,417 ERROR Exception Occurred : 'dict' object has no attribute 'key'
+Traceback (most recent call last):
+  File "C:\Users\amit.singh\MyFirstProject\pkg_dict\dict_function.py", line 13, in dict_key
+    self.d.key()
+AttributeError: 'dict' object has no attribute 'key'
+2022-01-28 16:39:36,762 INFO Executed Successfully
+2022-01-28 16:39:45,264 DEBUG pickle loaded: C:\Users\amit.singh\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2022-01-28 16:39:49,527 INFO Executed Successfully
+2022-01-28 16:39:58,337 DEBUG diff parser start
+2022-01-28 16:39:58,337 DEBUG line_lengths old: 1; new: 1
+2022-01-28 16:39:58,338 DEBUG -> code[replace] old[1:1] new[1:1]
+2022-01-28 16:39:58,339 DEBUG parse_part from 1 to 1 (to 0 in part parser)
+2022-01-28 16:39:58,339 DEBUG diff parser end
+2022-01-28 16:40:19,951 ERROR Exception Occurred : name 'key1' is not defined
+Traceback (most recent call last):
+  File "C:\Users\amit.singh\MyFirstProject\pkg_dict\dict_function.py", line 31, in dict_get
+    a=eval(input("Enter a key to see the respective value from Dict : "))
+  File "<string>", line 1, in <module>
+NameError: name 'key1' is not defined
+2022-01-28 16:40:56,917 INFO Executed Successfully
+2022-01-28 16:41:19,328 DEBUG diff parser start
+2022-01-28 16:41:19,329 DEBUG line_lengths old: 1; new: 1
+2022-01-28 16:41:19,330 DEBUG -> code[replace] old[1:1] new[1:1]
+2022-01-28 16:41:19,332 DEBUG parse_part from 1 to 1 (to 0 in part parser)
+2022-01-28 16:41:19,332 DEBUG diff parser end
+2022-01-28 16:41:49,527 ERROR Exception Occurred : invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\amit.singh\MyFirstProject\pkg_dict\dict_function.py", line 51, in dict_update
+    a=eval(input("Enter a key vale pair to update in Dict : "))
+  File "<string>", line 1
+    "key5":"singh"
+          ^
+SyntaxError: invalid syntax
+2022-01-28 16:42:36,494 ERROR Exception Occurred : dictionary update sequence element #0 has length 1; 2 is required
+Traceback (most recent call last):
+  File "C:\Users\amit.singh\MyFirstProject\pkg_dict\dict_function.py", line 52, in dict_update
+    self.d.update(a)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+2022-01-28 16:45:54,169 INFO Executed Successfully
+2022-01-28 16:45:55,290 INFO Executed Successfully
+2022-01-28 16:46:05,529 INFO Executed Successfully
+2022-01-28 16:46:20,647 ERROR Exception Occurred : 'key5'
+Traceback (most recent call last):
+  File "C:\Users\amit.singh\MyFirstProject\pkg_dict\dict_function.py", line 53, in dict_update
+    self.d[k].update(val)
+KeyError: 'key5'
+2022-01-28 16:50:22,030 INFO Executed Successfully
+2022-01-28 16:50:22,214 INFO Executed Successfully
+2022-01-28 16:50:34,764 INFO Executed Successfully
+2022-01-28 16:50:58,892 INFO Executed Successfully
